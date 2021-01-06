@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='pystyle',
-    version='0.1.0',
+    version='0.2.0',
     description='A package of plotting functions for pyplot figures',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -14,13 +14,16 @@ setuptools.setup(
     author_email='jrpybus@mit.edu',
     license='MIT',
     classifiers=[
-        'Development Status :: 1 - Planning',
+        'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
+        'Topic :: Database',
+        'Topic :: Scientific/Engineering',
         ],
     packages = setuptools.find_packages(),
     python_requires='>=3.7',
-    install_requires=['matplotlib',                     
+    install_requires=['numpy',
+                      'matplotlib',                     
                       ]
 )
