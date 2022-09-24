@@ -5,11 +5,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='pystyle',
-    version='0.2.0',
+    version='0.3.0',
     description='A package of plotting functions for pyplot figures',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/JacksonPybus/pyplotStyle',
+    url='https://github.com/JacksonPybus/pystyle',
     author='Jackson Pybus',
     author_email='jrpybus@mit.edu',
     license='MIT',
